@@ -1,7 +1,8 @@
-package com.example.stepikcoursedevcolibry
+package com.example.stepikcoursedevcolibry.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.stepikcoursedevcolibry.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
