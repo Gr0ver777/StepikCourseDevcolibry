@@ -1,7 +1,7 @@
 package com.example.stepikcoursedevcolibry.domein
 
-class AddShopListUseCase {
+class AddShopListUseCase(private val shopRepository: ShopListRepository) {
     fun addShopItem(shopItem: ShopItem){
-        TODO()
+        shopRepository.addShopItem(shopItem)
     }
 }

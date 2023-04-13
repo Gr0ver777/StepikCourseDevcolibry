@@ -1,7 +1,7 @@
 package com.example.stepikcoursedevcolibry.domein
 
-class DeleteShopListUseCase {
+class DeleteShopListUseCase(private val shopRepository: ShopListRepository) {
     fun deleteShopItem(shopItem: ShopItem){
-        TODO()
+        shopRepository.deleteShopItem(shopItem)
     }
 }
