@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">StepikCourseDevcolibry</string>
+    <string name="todo">TODO</string>
+    <string name="add_shop_item_content_description">Добавить описание</string>
+
+
 </resources>
